@@ -1,0 +1,28 @@
+# Modèles LLM (trop volumineux pour GitHub)
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# Environnement Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Configuration locale
+.env
+config_local.json
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
